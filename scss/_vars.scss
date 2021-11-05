@@ -1,0 +1,66 @@
+$title: #252B42;
+$accent: #FA4A0C;
+$text: #737373;
+
+
+%text {
+    @extend %mon-500;
+    color: $text;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+%title {
+    @extend %mon-700;
+    color: $title;
+    font-size: 40px;
+    line-height: 57px;
+}
+
+%accent {
+    @extend %mon-700;
+    color: $accent;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+%poppins-400 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+%poppins-500 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+%poppins-600 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+%poppins-700 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+%mon-400 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+%mon-500 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+%mon-600 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+%mon-700 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
